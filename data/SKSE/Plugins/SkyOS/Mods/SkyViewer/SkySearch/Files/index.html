@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:#10151a;color:#e6edf2;font:14px/1.5 "Segoe UI",sans-serif}
+    .module{overflow:hidden;border:1px solid #806438;border-radius:10px;background:radial-gradient(ellipse at 80% 15%,#16404a66,transparent 45%),#151a20}
+    .banner{position:relative;min-height:180px;display:flex;align-items:center;padding:28px 32px;background:#111820}
+    .banner:before{position:absolute;inset:0;content:"";background:linear-gradient(90deg,#10151acc,#10151a66),url("skysearch-header.png") center 48%/cover;opacity:.82}
+    .copy{position:relative;display:flex;align-items:center;gap:20px}.logo{width:92px;height:74px;object-fit:contain;filter:drop-shadow(0 0 12px #31c6e8aa)}
+    .eyebrow{margin:0 0 6px;color:#e6b76a;font:10px Consolas,monospace;letter-spacing:.2em;text-transform:uppercase}h2{margin:0;color:#f0e2c4;font:700 30px Georgia,serif}.description{max-width:490px;margin:8px 0 0;color:#b6c1c8;font-size:12px}
+    .features{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:16px}.feature{padding:12px;border:1px solid #ffffff18;border-radius:7px;background:#10151a99}.feature strong{display:block;color:#83ddeb;font-size:11px}.feature span{display:block;margin-top:5px;color:#aab4be;font-size:10px}
+    @media(max-width:620px){.banner{padding:20px}.copy{align-items:flex-start;flex-direction:column;gap:10px}.features{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <section class="module" aria-label="SkySearch module">
+    <header class="banner"><div class="copy"><img class="logo" src="skysearch-logo.png" alt="SkySearch logo"><div><p class="eyebrow">SkyOS · Skyrim index</p><h2>SkySearch</h2><p class="description">Search the records currently loaded in your game. Open a mod to browse its records, or narrow results with the category filters.</p></div></div></header>
+    <div class="features"><div class="feature"><strong>Focused lookup</strong><span>Filter by NPCs, quests, items, spells, perks, cells, or mods.</span></div><div class="feature"><strong>Record actions</strong><span>Use supported actions directly from a selected search result.</span></div><div class="feature"><strong>Fast results</strong><span>Set a result cap in the SkySearch module settings to tune broad searches.</span></div></div>
+  </section>
+</body>
+</html>

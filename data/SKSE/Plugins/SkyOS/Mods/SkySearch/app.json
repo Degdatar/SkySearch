@@ -1,0 +1,9 @@
+{
+  "name": "SkySearch",
+  "plugin": "SkySearch.dll",
+  "requiredCore": "SkyOS.dll",
+  "viewerModule": "Data/SKSE/Plugins/SkyOS/Mods/SkyViewer/SkySearch/module.json",
+  "documents": "Data/SKSE/Plugins/SkyOS/Mods/SkySearch/SkyDocuments",
+  "settingsStorage": "%LOCALAPPDATA%/SkyOS/SkyViewer/SkySearch/settings.json",
+  "dataStorage": "No persistent search index. Searches read the current Skyrim session."
+}
